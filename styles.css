@@ -16,8 +16,8 @@ header {
 
 .chamada {
     background-color: #40E0D0;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-top: 70px;
     display: flex;
     justify-content: center;
 
@@ -49,12 +49,12 @@ p {
 
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .categoria-videos img {
     opacity: 0.5;
-    height: 250px;
+    height: 300px;
 
 }
 
