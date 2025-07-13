@@ -36,7 +36,7 @@
     </section>
 
     <section class="categoria">
-        <h2>Filmes e séries</h2>
+        <h2>Atividades e Práticas</h2>
 
         <div class="categoria-videos">
             <a href="https://www.youtube.com/watch?v=EGqWtJsYAGA&t=13s">
@@ -80,9 +80,9 @@
       TikTok
     </button>
 
-    <button class="social-button facebook"
-            onclick="openSocial('https:https://www.facebook.com/?locale=pt_BR')">
-      Facebook
+    <button class="social-button YouTube"
+            onclick="openSocial('https:https://www.youtube.com/')">
+      YouTube
     </button>
 
     <!-- Arquivo JavaScript externo -->
@@ -118,7 +118,7 @@
 
   <script>
     // Substitua 'meusite.com' por algo único (como seu domínio ou nome de projeto)
-    fetch('https://api.countapi.xyz/update/https:/colegioalbertorebellovalente.github.io/praticas/visitas?amount=1')
+    fetch('https://api.countapi.xyz/update/https://colegioalbertorebellovalente.github.io/praticas/visitas?amount=1')
       .then(res => res.json())
       .then(data => {
         document.getElementById('contador').innerText = data.value;
