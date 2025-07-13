@@ -1,0 +1,112 @@
+body {
+    background: goldenrod;
+    color: white;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 50px;
+}
+
+header {
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 255, 0);
+    border-bottom: solid 2px rgb(42, 122, 228);
+}
+
+
+.chamada {
+    background-color: #40E0D0;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamda-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+p {
+    font-size: 20px;
+  
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+
+.categoria {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228)
+}
+
+/* Estilo global da página */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  margin-top: 30px;
+}
+
+/* Estilo comum a todos os botões */
+.social-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Cores específicas de cada rede */
+.instagram {
+  background-color: #E1306C;
+}
+.instagram:hover {
+  background-color: #c7255c;
+}
+
+.tiktok {
+  background-color: #000000;
+}
+.tiktok:hover {
+  background-color: #222222;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+.facebook:hover {
+  background-color: #2d4373;
+}

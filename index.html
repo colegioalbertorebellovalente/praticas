@@ -1,0 +1,129 @@
+<html lang="pt-br">
+
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Colégio Alberto Rebelo</title>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botões de Redes Sociais</title>
+    <!-- Arquivo de estilos externo -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header>COLÉGIO ALBERTO VALENTE</header>
+
+    <section class="chamada">
+
+        <div class="chamada-texto">
+
+            <h1>Atividades A.R.V 👨‍🎓 </h1>
+            <p>#Aprender é divertido</p>
+
+        </div>
+-
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EGqWtJsYAGA?si=vPYOjazxuxeOuu6v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <section class="categoria">
+        <h2>Filmes e séries</h2>
+
+        <div class="categoria-videos">
+            <a href="https://www.youtube.com/watch?v=EGqWtJsYAGA&t=13s">
+                <img src="https://img.youtube.com/vi/EGqWtJsYAGA&t=13s/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=lHgGS4czQdc">
+                <img src="https://img.youtube.com/vi/lHgGS4czQdc/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=awm3RdisiQ8">
+                <img src="https://img.youtube.com/vi/awm3RdisiQ8/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=g_Fa8HoPb5U">
+                <img src="https://img.youtube.com/vi/g_Fa8HoPb5U/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=5eM7vPztW1o">
+                <img src="https://img.youtube.com/vi/5eM7vPztW1o/maxresdefault.jpg" />
+            </a>
+
+             <a href="https://www.youtube.com/watch?v=5eM7vPztW1o">
+                <img src="https://img.youtube.com/vi/5eM7vPztW1o/maxresdefault.jpg" />
+            </a>
+
+        </div>
+
+
+    </section>
+
+     <h1>Acesse nossas redes sociais</h1>
+
+    <button class="social-button instagram"
+            onclick="openSocial('https://www.instagram.com/colegioalbertorebellovalente')">
+      Instagram
+    </button>
+
+    <button class="social-button tiktok"
+            onclick="openSocial('https://www.tiktok.com/')">
+      TikTok
+    </button>
+
+    <button class="social-button facebook"
+            onclick="openSocial('https:https://www.facebook.com/?locale=pt_BR')">
+      Facebook
+    </button>
+
+    <!-- Arquivo JavaScript externo -->
+    <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contador de Visitas</title>
+  <style>
+    #contador {
+      font-size: 20px;
+      font-weight: bold;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h4>Bem-vindo ao nosso site!</h4>
+  <p>Visualizações da página: <span id="contador">Carregando...</span></p>
+
+  <script>
+    // Substitua 'meusite.com' por algo único (como seu domínio ou nome de projeto)
+    fetch('https://api.countapi.xyz/update/meusite.com/visitas?amount=1')
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('contador').innerText = data.value;
+      });
+  </script>
+
+</body>
+</html>
